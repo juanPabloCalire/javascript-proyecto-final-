@@ -1,0 +1,48 @@
+[
+    {
+        "id" : 1,
+        "nombre":"Gin Bombay Sapphire",
+        "ventas":300 
+    },
+    {
+        "id":2,
+        "nombre":"Ron Malibu Caribeño",
+        "ventas":250
+
+    },
+    {
+        "id":3,
+        "nombre":"Bailey's Original Cream",
+        "ventas":200
+
+    },
+    {
+        "id":4,
+        "nombre":"Aperol aperitivo",
+        "ventas":350
+    },
+    {
+        "id":5,
+        "nombre":"Fernet Branca",
+        "ventas":550
+
+    },
+    {
+        "id":6,
+        "nombre":"Jonnie Walker Black label",
+        "ventas":360
+
+    },
+    {
+        "id":7,
+        "nombre":"Vodka Smirnof",
+        "ventas":400
+
+    },
+    {
+        "id":8,
+        "nombre":"Vodka Absolut Original",
+        "ventas":450
+
+    }
+]

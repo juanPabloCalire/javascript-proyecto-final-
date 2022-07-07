@@ -1,0 +1,204 @@
+/*
+* {
+    margin: 15px;
+    padding: 0px;
+}
+
+html {
+    font-size: 62, 5%;
+    Cambiamos la etiqueta raíz, y ahora contamos de 10px en 10px
+}
+*/
+
+/*-------------------------------*/
+body{
+    background-color: rgb(255, 255, 255);
+}
+body.dark {
+    background: black;
+}
+header{
+    z-index: 100;
+}
+.letra_color{
+    color: white;
+}
+.letra_color_uno{
+    color: rgb(45, 44, 44);
+}
+.botonColor{
+    background-color: rgb(3, 93, 93);
+    color: rgb(242, 233, 233);
+}
+
+.productoDestacado{
+    width: 500px;
+    height: 40px;
+    background-color: rgb(1, 1, 17);
+    border-radius: 10px ;
+    border-color: rgb(156, 156, 156);
+    color: white;
+    margin-left: 470px;
+    margin-top: 40px;
+    
+        
+
+}
+.topVentas{
+    width: 500px;
+        height: 40px;
+        background-color: rgb(1, 1, 17);
+        border-radius: 10px;
+        border-color: rgb(156, 156, 156);
+        color: white;
+        margin-left: 470px;
+        margin-top: 40px;
+
+}
+.ventasTop{
+    margin: 70px 70px 70px 70px ;
+    
+}
+
+p{
+    color: rgb(239, 227, 227);
+}
+.precioColor{
+    color: white;
+}
+
+.switch{
+    margin: 5px;
+    width: 50px;
+    height: 30px;
+    background: #343d5b;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+
+   
+
+}
+.switch::after {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 26px;
+    position: absolute;
+    background: white;
+    top: 0;
+    left: 0;
+    right: unset;
+    border-radius: 100px;
+    -webkit-transition: .3s ease all;
+    transition: .3s ease all;
+    -webkit-box-shadow: 0px 0px 2px 2px black;
+    box-shadow: 0px 0px 2px 2px black;
+}
+.switch.active {
+    background: rgb(128, 127, 126);
+    color: black;
+}
+.switch.active::after {
+    right: 0;
+    left: unset;
+}
+.botonLuz{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    background: none;
+    color: white;
+}
+/*
+.modoBoton{
+    width: 50px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    color: white;
+    font-size: 15px;
+    transition: .3s ease all;
+}
+.modoBoton:hover{
+    background: white;
+    color: red;
+    box-shadow: 3px 3px 50px black;
+}
+*/
+
+.description{
+    height: 25px;
+    overflow: hidden;
+    transition: height .3s ease-in .3s;
+}
+.description:hover{
+    height: 80px;
+}
+.carrito{
+    min-height: 80vh;
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+}
+.table__productos{
+    display: flex;
+
+}
+.table__productos > img{
+    width: 9rem;
+    object-fit: contain;
+    border-radius: 6x;
+    margin-right: 20px;
+}
+.table__cantidad > input{
+    width: 40px;
+    border: none;
+    outline: 0;
+    font-size: 16px;
+    font-weight: 700px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+
+
+/*-------CONTACTO----------------*/
+
+#container {
+    display: flex;
+    width: 90%;
+    border: 1px solid rgb(0, 0, 6);
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    margin-top: 5%;
+}
+
+.forms {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    color: rgb(132, 132, 135);
+
+}
+
+#registro {
+    border-right: 1px solid rgb(112, 112, 113);
+}
+input{
+    background: rgb(156, 156, 157);
+}
+.butonContacto{
+    background: rgb(130, 130, 131);
+}
+/*--------------------------------------*/
